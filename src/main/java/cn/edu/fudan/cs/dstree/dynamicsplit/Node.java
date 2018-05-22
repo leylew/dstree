@@ -403,91 +403,6 @@ public class Node implements Serializable {
         }
     }
 
-//    public TreeInfo printTreeInfo() {
-//        //1.get total node
-//        //2.get terminal node(empty and not empty)
-//        //3.get average amount for none empty terminal node
-//
-//        //using dept-first
-//        //init first level node
-//        TreeInfo tInfo = new TreeInfo();
-//        List<Node> list = new ArrayList<Node>();
-//        list.add(this);
-//
-//        int totalCount = 0;
-//        int emptyNodeCount = 0;
-//        int noneEmptyNodeCount = 0;
-//        int tsCount = 0;
-//        int sumofLevel = 0;
-//
-//        //stack
-//        while (list.size() > 0) {
-//            //pop
-//            Node node = list.remove(list.size() - 1);
-//
-//            totalCount++;
-//
-//            if (node.isTerminal()) {
-//                //for terminal node
-//                if (node.size > 0) {
-//                    noneEmptyNodeCount++;
-//                    tsCount += node.size;
-//                    sumofLevel += node.level;
-//                } else
-//                    emptyNodeCount++;
-//            } else {
-//                //for internal node
-//                //push their children if it is internal node
-//                list.add(node.left);
-//                list.add(node.right);
-//            }
-//        }
-//        double avgLevel = sumofLevel / (double) noneEmptyNodeCount;
-//        double avgPerNode = tsCount / (noneEmptyNodeCount == 0 ? 1 : noneEmptyNodeCount);
-//
-//        tInfo.setTotalCount(totalCount);
-//        tInfo.setTsCount(tsCount);
-//        tInfo.setEmptyNodeCount(emptyNodeCount);
-//        tInfo.setNoneEmptyNodeCount(noneEmptyNodeCount);
-//        tInfo.setAvgPerNode(avgPerNode);
-//        tInfo.setAvgLevel(avgLevel);
-//        return tInfo;
-//    }
-
-//    public void toXml(StringBuffer xml) {
-//        for (int i = 0; i < level; i++) {
-//            xml.append(" ");
-//        }
-//        xml.append("<node").append(" ");
-//        xml.append("level=\"" + level).append("\" ");
-//        xml.append("segmentSize=\"" + getSegmentSize()).append("\" ");
-//        xml.append("isTerminal=\"" + isTerminal()).append("\" ");
-//        xml.append("fileName=\"" + getFileName()).append("\" ");
-//        xml.append("size=\"" + size).append("\" ");
-//        if (!isTerminal()) {
-//            xml.append("splitFrom=\"" + splitPolicy.splitFrom).append("\" ");
-//            xml.append("splitTo=\"" + splitPolicy.splitTo).append("\" ");
-//            xml.append("splitIndex=\"" + splitPolicy.indicatorIdx).append("\" ");
-//            xml.append("splitValue=\"" + splitPolicy.indicatorSplitValue).append("\" ");
-//            xml.append("splitPolicy=\"" + splitPolicy.getNodeSegmentSplitPolicy().getClass().getSimpleName()).append("\" ");
-//
-//        }
-//        xml.append(" ");
-//
-//        xml.append(">").append("\n");
-//
-//        if (left != null)
-//            left.toXml(xml);
-//
-//        if (right != null)
-//            right.toXml(xml);
-//
-//        for (int i = 0; i < level; i++) {
-//            xml.append(" ");
-//        }
-//        xml.append("</node>").append("\n");
-//    }
-
     public Node approximateSearch(double[] queryTs) {
         System.out.println("this.getFileName() = " + this.getFileName());
         if (isTerminal())
@@ -524,5 +439,24 @@ public class Node implements Serializable {
         }
         in.close();
         return node;
+    }
+
+    public boolean satisfyThreshold(double[] ts, double threshold) {
+        double lowerBound = 0.0;
+        ISeriesSegmentSketcher seriesSegmentSketcher = new MeanStdevSeriesSegmentSketcher();
+        for (int i = 0; i < nodePoints.length; i++) {
+            int slen = getSegmentLength(nodePoints, i);
+            SeriesSegmentSketch seriesSegmentSketch = seriesSegmentSketcher.doSketch(ts, getSegmentStart(nodePoints, i), getSegmentEnd(nodePoints, i));
+            NodeSegmentSketch nodeSegmentSketch = nodeSegmentSketches[i];
+            if(seriesSegmentSketch.indicators[0] <= nodeSegmentSketch.indicators[1])
+                lowerBound += slen * (seriesSegmentSketch.indicators[0] - nodeSegmentSketch.indicators[1]) * (seriesSegmentSketch.indicators[0] - nodeSegmentSketch.indicators[1]);
+            else if(seriesSegmentSketch.indicators[0] > nodeSegmentSketch.indicators[0])
+                lowerBound += slen * (seriesSegmentSketch.indicators[0] - nodeSegmentSketch.indicators[0]) * (seriesSegmentSketch.indicators[0] - nodeSegmentSketch.indicators[0]);
+            if(seriesSegmentSketch.indicators[1] <= nodeSegmentSketch.indicators[3])
+                lowerBound += slen * (seriesSegmentSketch.indicators[1] - nodeSegmentSketch.indicators[3]) * (seriesSegmentSketch.indicators[1] - nodeSegmentSketch.indicators[3]);
+            else if(seriesSegmentSketch.indicators[1] > nodeSegmentSketch.indicators[2])
+                lowerBound += slen * (seriesSegmentSketch.indicators[1] - nodeSegmentSketch.indicators[2]) * (seriesSegmentSketch.indicators[1] - nodeSegmentSketch.indicators[2]);
+        }
+        return (Math.sqrt(lowerBound) <= threshold);
     }
 }

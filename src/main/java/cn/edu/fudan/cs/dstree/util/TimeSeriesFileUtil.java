@@ -43,6 +43,30 @@ public class TimeSeriesFileUtil {
         return ret;
     }
 
+    public static double[] readSeriesFromFile(String fileName, int pos){
+        double[] ts = new double[100];
+        File file = new File(fileName);
+        try {
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+            String s = null;
+            int count = -1;
+            while((s = br.readLine())!= null){
+                //System.out.println(s);
+                count++;
+                if(count < pos)continue;
+                String[] array = s.split(" ");
+                for(int i = 0; i < array.length; i ++)ts[i] = Double.parseDouble(array[i]);
+                break;
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return ts;
+    }
+
     public static double[][] readSeriesFromBinaryFileAtOnce(String fileName, int tsLength) throws IOException {
         long fileSize = new File(fileName).length();
         int count = (int) (fileSize / tsLength / 8);
@@ -202,5 +226,25 @@ public class TimeSeriesFileUtil {
             }
         }
         return ret;
+    }
+
+    public static double[][] readSeriesFromFileAtOnce(String fileName, int fileLength, int seriesLength) {
+        double[][] r = new double[fileLength / seriesLength][seriesLength];
+        try {
+            File file = new File(fileName);
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String s = null;
+            int line = 0;
+            while((s = br.readLine()) !=null){
+                String[] arrays = s.split(" ");
+                for(int i = 0; i < arrays.length; i ++) r[line][i] = Double.parseDouble(arrays[i]);
+                line ++;
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return r;
     }
 }

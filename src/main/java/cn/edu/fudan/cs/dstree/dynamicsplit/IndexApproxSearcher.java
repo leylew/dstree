@@ -106,8 +106,6 @@ public class IndexApproxSearcher {
             //calc the min distance
             double minDist = DistUtil.minDist(node.getFileName(), queryTs);
             System.out.println("minDist = " + minDist);
-
-//            System.out.println("******************************");
         }
         timeSeriesReader.close();
     }

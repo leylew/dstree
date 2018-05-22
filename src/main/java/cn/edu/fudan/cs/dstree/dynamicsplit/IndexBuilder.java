@@ -26,14 +26,14 @@ public class IndexBuilder {
      * @throws ClassNotFoundException
      */
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        System.out.println("usage: java -jar uber-dstree-version.jar timeseriesfilename threshlod initsegmentsize");
-        System.out.println("eg: java -jar uber-dstree-1.0-SNAPSHOT.jar data/Series_64_20000.z.txt 100 1");
-        String fileName = "data/data";
+        //System.out.println("usage: java -jar uber-dstree-version.jar timeseriesfilename threshlod initsegmentsize");
+        //System.out.println("eg: java -jar uber-dstree-1.0-SNAPSHOT.jar data/Series_64_20000.z.txt 100 1");
+        String fileName = "data/1000000d";
         if (args.length > 0)
             fileName = args[0];
 
         //threshold
-        int threshold = 100;
+        int threshold = 10;
         if (args.length > 1) {
             threshold = Integer.parseInt(args[1]);
         }

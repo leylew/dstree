@@ -2,7 +2,7 @@ package cn.edu.fudan.cs.dstree.dynamicsplit;
 
 /**
  * Created by IntelliJ IDEA.
- * User: wangyang
+ * User: wang yang
  * Date: 11-7-5
  * Time: 下午8:11
  * To change this template use File | Settings | File Templates.

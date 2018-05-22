@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8da5b1e-86cb-46d0-95d5-31f3e9590995" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/ThresholdSearch.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexApproxSearcher.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexApproxSearcher.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevRange.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevRange.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/Node.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/Node.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/TimeSeriesFileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/TimeSeriesFileUtil.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/DistTools.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/DistTools.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/FileBuffer.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/FileBuffer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/FileBufferManager.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/FileBufferManager.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/IndexApproxSearcher.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/IndexApproxSearcher.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/MeanNodeSegmentSplitPolicy.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/MeanNodeSegmentSplitPolicy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevNodeSegmentSketchUpdater.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevNodeSegmentSketchUpdater.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/Node.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/SplitPolicy.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/SplitPolicy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/StdevNodeSegmentSplitPolicy.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/dynamicsplit/StdevNodeSegmentSplitPolicy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/test/similaritySearch.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/test/similaritySearch.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/DistUtil.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/DistUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/TimeSeriesFileUtil.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/TimeSeriesFileUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/system/RuntimeInformationBean.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/system/RuntimeInformationBean.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/system/RuntimeInformationFactory.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/system/RuntimeInformationFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/system/SystemInfoUtilsImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/edu/fudan/cs/dstree/util/system/SystemInfoUtilsImpl.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +42,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="142">
+              <caret line="447" column="54" lean-forward="false" selection-start-line="447" selection-start-column="54" selection-end-line="447" selection-end-column="54" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThresholdSearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/ThresholdSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2018#2024#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-644">
+              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeSeriesFileUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/TimeSeriesFileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeSeriesReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/TimeSeriesReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="46" />
+              <folding>
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,24 +111,54 @@
       <file leaf-file-name="similaritySearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="414">
+              <caret line="33" column="110" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="110" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexBuilder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
+      <file leaf-file-name="IndexExactSearcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="312">
+              <caret line="49" column="61" lean-forward="false" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplitPolicy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/SplitPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="39" column="82" lean-forward="false" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>approximateSearch</find>
+      <find>exactSearch</find>
+      <find>timeSeries</find>
+      <find>nodeSegmentSketches</find>
+      <find>updateStatistics</find>
+      <find>hsNodePoints</find>
+      <find>seriesSegmentSketcher</find>
+      <find>threshold</find>
+      <find>lowerBound</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,11 +171,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dstree.iml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexApproxSearcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevRange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/ThresholdSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/TransformData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/TimeSeriesFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/ThresholdSearch.java" />
       </list>
     </option>
   </component>
@@ -105,6 +224,55 @@
               <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
               <item name="dstree" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicsplit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dstree" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.similaritySearch">
+  <component name="RunManager" selected="Application.ThresholdSearch">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -141,7 +309,7 @@
     <configuration name="IndexBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.edu.fudan.cs.dstree.dynamicsplit.*" />
+          <option name="PATTERN" value="cn.edu.fudan.cs.dstree.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +328,30 @@
     <configuration name="IndexExactSearcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.edu.fudan.cs.dstree.dynamicsplit.*" />
+          <option name="PATTERN" value="cn.edu.fudan.cs.dstree.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="cn.edu.fudan.cs.dstree.dynamicsplit.IndexExactSearcher" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dstree" />
+      <envs />
+    </configuration>
+    <configuration name="ThresholdSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.fudan.cs.dstree.dynamicsplit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.edu.fudan.cs.dstree.dynamicsplit.ThresholdSearch" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -269,16 +456,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.similaritySearch" />
       <item index="1" class="java.lang.String" itemvalue="Application.IndexExactSearcher" />
       <item index="2" class="java.lang.String" itemvalue="Application.IndexBuilder" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ThresholdSearch" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.similaritySearch" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.ThresholdSearch" />
         <item index="1" class="java.lang.String" itemvalue="Application.IndexBuilder" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IndexExactSearcher" />
+        <item index="2" class="java.lang.String" itemvalue="Application.similaritySearch" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IndexExactSearcher" />
       </list>
     </recent_temporary>
   </component>
@@ -301,29 +490,31 @@
       <workItem from="1526440595984" duration="2119000" />
       <workItem from="1526450204033" duration="3042000" />
       <workItem from="1526454967697" duration="6274000" />
-      <workItem from="1526473496681" duration="699000" />
+      <workItem from="1526473496681" duration="68202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19756000" />
+    <option name="totallyTimeSpent" value="87259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5019305" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27799228" sideWeight="0.49423394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27799228" sideWeight="0.49423394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49423394" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -340,7 +531,6 @@
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -364,181 +554,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/CalcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4899">
-          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/DistUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/CalcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/DistUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3834">
-          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/CalcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3996">
-          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/DistUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/CalcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4440">
-          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/DistUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/CalcUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -670,42 +690,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/CalcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4876">
-          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore~HEAD" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -718,11 +707,277 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/Series_64_20000.z.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math/2.2/commons-math-2.2.jar!/org/apache/commons/math/stat/descriptive/moment/Mean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <marker date="1517534951655" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1517534951655" expanded="false" signature="171:407" ph="..." />
+            <marker date="1517534951655" expanded="true" signature="676:755" ph="{...}" />
+            <marker date="1517534951655" expanded="true" signature="789:854" ph="{...}" />
+            <marker date="1517534951655" expanded="false" signature="886:897" ph=" { " />
+            <marker date="1517534951655" expanded="false" signature="918:924" ph=" }" />
+            <marker date="1517534951655" expanded="true" signature="962:1048" ph="{...}" />
+            <marker date="1517534951655" expanded="true" signature="1074:1155" ph="{...}" />
+            <marker date="1517534951655" expanded="false" signature="1186:1197" ph=" { " />
+            <marker date="1517534951655" expanded="false" signature="1219:1225" ph=" }" />
+            <marker date="1517534951655" expanded="false" signature="1249:1260" ph=" { " />
+            <marker date="1517534951655" expanded="false" signature="1286:1292" ph=" }" />
+            <marker date="1517534951655" expanded="true" signature="1361:1843" ph="{...}" />
+            <marker date="1517534951655" expanded="true" signature="1930:2452" ph="{...}" />
+            <marker date="1517534951655" expanded="true" signature="2516:2588" ph="{...}" />
+            <marker date="1517534951655" expanded="true" signature="2613:2705" ph="{...}" />
+            <marker date="1517534951655" expanded="true" signature="2759:2896" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math/2.2/commons-math-2.2-sources.jar!/org/apache/commons/math/stat/descriptive/moment/Mean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexApproxSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1454">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/PqItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/FileBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/MeanNodeSegmentSplitPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/NodeSegmentSketch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/Sketch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/SeriesSegmentSketch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/ISeriesSegmentSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/10000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/TransformData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevNodeSegmentSketchUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/TimeSeriesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/10000d">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/CalcUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1000000d">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/MeanStdevSeriesSegmentSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/SplitPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="82" lean-forward="false" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexExactSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="49" column="61" lean-forward="false" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="447" column="54" lean-forward="false" selection-start-line="447" selection-start-column="54" selection-end-line="447" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/test/similaritySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="33" column="110" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/util/TimeSeriesFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/IndexBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="-644">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/fudan/cs/dstree/dynamicsplit/ThresholdSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2018#2024#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
